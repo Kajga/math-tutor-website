@@ -1,0 +1,142 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x:none;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    background-color:#86A7FC;
+}
+nav{
+    height:60px;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow: 0px 5px 35px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 5px 35px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 35px -6px rgba(0,0,0,0.75);
+}
+nav a{
+    font-weight:bold;
+    text-decoration:none;
+    color:black;
+    margin-left:1rem;
+
+}
+.login{
+    border-style:solid;
+    padding:0.5rem;
+    border-radius:10px;
+    border-color:transparent;
+}
+.login:hover{
+    background-color:rgb(243, 243, 243)
+}
+.home{
+    border-style:solid;
+    padding:0.5rem 1rem;
+    border-radius:10px;
+    border-color:#4a52c4;;
+    background-color:#4a52c4;
+    color:white;
+}
+.home:hover{
+    background-color:#3e4497;
+    border-color:#3e4497;
+}
+.register-box{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-style:solid;
+    border-radius:10px;
+    border-color:white;
+    background-color:white;
+    margin:0 auto;
+    margin-top:2rem;
+    width:25rem;
+    height:30rem;
+}
+.register-box h2{
+    font-weight:normal;
+}
+.signin{
+    text-decoration:none;
+    color:rgba(0, 0, 0, 0.856);
+    font-weight:bold;
+    border-style:solid;
+    padding:0.5rem;
+    border-radius:10px;
+    border-color:transparent;
+}
+.signin:hover{
+    background-color:rgb(243, 243, 243)
+}
+#email{
+    border-style:solid;
+    padding:1rem 2rem;
+    border-radius:10px;
+    border-bottom-left-radius:0px;
+   border-bottom-right-radius:0px;
+   border-color:#e4eef3;
+   background-color:#e4eef3;
+   border-bottom-style:solid;
+   border-bottom-color:rgba(0, 0, 0, 0.267);
+   border-bottom-width:1px;
+}
+#email:hover{
+    background-color:#cbd2d6;
+    border-color:#cbd2d6;
+    border-bottom-width:1px;
+    border-bottom-color:rgb(0, 0, 0);
+}
+#username{
+    border-style:solid;
+    padding:0.5rem 1rem;
+    border-radius:10px;
+    border-bottom-left-radius:0px;
+   border-bottom-right-radius:0px;
+   border-color:#e4eef3;
+   background-color:#e4eef3;
+   border-bottom-color:rgba(0, 0, 0, 0.267);
+   border-bottom-width:1px;
+}
+#username:hover{
+    background-color:#cbd2d6;
+    border-color:#cbd2d6;
+    border-bottom-width:1px;
+    border-bottom-color:rgb(0, 0, 0);
+}
+#password{
+    border-style:solid;
+    padding:0.5rem 1rem;
+    border-radius:10px;
+    border-bottom-left-radius:0px;
+   border-bottom-right-radius:0px;
+   border-color:#e4eef3;
+   background-color:#e4eef3;
+   border-bottom-color:rgba(0, 0, 0, 0.267);
+   border-bottom-width:1px;
+}
+#password:hover{
+    background-color:#cbd2d6;
+    border-color:#cbd2d6;
+    border-bottom-width:1px;
+    border-bottom-color:rgb(0, 0, 0);
+}
+.register-link{
+    margin-top:2rem;
+    border:solid;
+    text-decoration:none;
+    color:white;
+    background-color:#525CEB;
+    border-color:#525CEB;
+    border-radius:10px;
+    padding:0.2rem;
+    width:5rem;
+    text-align:center;
+}
+.register-link:hover{
+    background-color:#424bc9;
+    border-color:#424bc9;
+}
