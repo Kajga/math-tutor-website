@@ -45,6 +45,9 @@ nav a{
     border-color:#3e4497;
 }
 .register-box{
+    box-shadow: -5px 4px 44px 0px rgba(0,0,0,0.37);
+-webkit-box-shadow: -5px 4px 44px 0px rgba(0,0,0,0.37);
+-moz-box-shadow: -5px 4px 44px 0px rgba(0,0,0,0.37);
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -74,7 +77,7 @@ nav a{
 }
 #email{
     border-style:solid;
-    padding:1rem 2rem;
+    padding:0.5rem 1rem;
     border-radius:10px;
     border-bottom-left-radius:0px;
    border-bottom-right-radius:0px;
@@ -125,18 +128,22 @@ nav a{
     border-bottom-color:rgb(0, 0, 0);
 }
 .register-link{
-    margin-top:2rem;
+    margin-top:3rem;
     border:solid;
+    font-size:1.5rem;
     text-decoration:none;
     color:white;
     background-color:#525CEB;
     border-color:#525CEB;
+    border-bottom-color:#3c43a1;
+    border-width: 0 0 5px;
     border-radius:10px;
     padding:0.2rem;
-    width:5rem;
+    width:10rem;
     text-align:center;
 }
 .register-link:hover{
     background-color:#424bc9;
     border-color:#424bc9;
+    border-bottom-color:#323885;
 }

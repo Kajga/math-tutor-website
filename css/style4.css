@@ -47,9 +47,9 @@ nav a{
 }
 .input-header h2{
     text-shadow: -2px 3px 8px rgba(0,0,0,0.6);
-    margin:0;
-    padding-left:2rem;
+    margin:0 30%;
     padding-top:0;
+    padding-left:3.5rem;
     padding-bottom:0;
     border:solid;
     border-width:1px;
@@ -62,6 +62,7 @@ nav a{
     border-bottom-color:#3c43a1;
     color:white;
     font-size:4rem;
+    text-wrap:nowrap;
     font-weight:bold;
 }
 .input-container img{
@@ -107,8 +108,8 @@ nav a{
 -webkit-box-shadow: 2px 4px 24px -8px rgba(0,0,0,0.75);
 -moz-box-shadow: 2px 4px 24px -8px rgba(0,0,0,0.75);
 box-sizing:border-box;
-    height:250px;
-    position:fixed; right:17rem; bottom:1rem;
+    height:260px;
+    position:fixed; right:18rem; bottom:1rem;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
@@ -174,24 +175,24 @@ box-sizing:border-box;
     
 }
 .msg p {
-    font-size: 0.7rem;
-    margin: 0 0 0.2rem 0;
+    font-size: 0.9rem;
+    margin:0rem;
     color: black;
 }
 .msg h2{
-    font-size:0.9rem;
+    line-height:5px;
+    font-size:1rem;
     color:black;
 }
 
 .container{
-    position:fixed; bottom:1rem; left:27rem;
+    position:fixed; bottom:1rem; left:28rem;
     width:15%;
-    height:250px;
+    height:260px;
     display:grid;
     grid-template: repeat(6, 60px) / repeat(4, 1fr);
-    padding-top:0.5rem;
     padding-left:1rem;
-    padding-right:1rem;
+    padding-top:1rem;
     transform: scale(1);
     grid-template-columns:auto auto auto;
     border:solid;
@@ -208,8 +209,8 @@ box-sizing:border-box;
 box-sizing:border-box;
 }
 .container>div{
-    width:80%;
-    height:80%;
+    width:75%;
+    height:75%;
     display:flex;
     justify-content:center;
     align-items:center;

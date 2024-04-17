@@ -45,6 +45,9 @@ nav a{
     border-color:#3e4497;
 }
 .login-box{
+    box-shadow: -5px 4px 44px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: -5px 4px 44px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: -5px 4px 44px 0px rgba(0,0,0,0.37);
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -55,7 +58,7 @@ nav a{
     margin:0 auto;
     margin-top:5rem;
     width:25rem;
-    height:25rem;
+    height:27rem;
 }
 .login-box h2{
     font-weight:normal;
@@ -107,18 +110,26 @@ nav a{
     border-bottom-color:rgb(0, 0, 0);
 }
 .login-link{
-    margin-top:2rem;
+    margin-top:3rem;
     border:solid;
+    font-size:1.5rem;
     text-decoration:none;
-    color:white;
-    background-color:#525CEB;
-    border-color:#525CEB;
+    color:white;;
     border-radius:10px;
     padding:0.2rem;
     width:5rem;
+    text-align:center;
+    background-color:#525CEB;
+    border-color:#525CEB;
+    border-bottom-color:#3c43a1;
+    border-width: 0 0 5px;
+    border-radius:10px;
+    padding:0.2rem;
+    width:10rem;
     text-align:center;
 }
 .login-link:hover{
     background-color:#424bc9;
     border-color:#424bc9;
+    border-bottom-color:#323885;
 }
