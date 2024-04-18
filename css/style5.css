@@ -54,6 +54,7 @@ h1{
     width:19%;
     margin:0 40%;
     margin-top:2rem;
+    margin-bottom:4rem;
     box-shadow: -5px 4px 44px 0px rgba(0,0,0,0.21);
 -webkit-box-shadow: -5px 4px 44px 0px rgba(0,0,0,0.21);
 -moz-box-shadow: -5px 4px 44px 0px rgba(0,0,0,0.21);
@@ -66,6 +67,9 @@ h1{
 }
 .chat-history-link{
     text-decoration:none;
+}
+li{
+    list-style:none;
 }
 .chat-history-container{
     margin:0 auto;
@@ -82,31 +86,36 @@ h1{
 -webkit-box-shadow: 2px 8px 18px -6px rgba(0,0,0,0.75);
 -moz-box-shadow: 2px 8px 18px -6px rgba(0,0,0,0.75);
 }
+
 .chat-history-container a{
-    font-size:1.2rem;
-    background-color: #4d56d3;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
+    text-decoration:underline;
+    text-underline-offset:5px;
+    text-decoration-thickness:2px;
+    font-size:1rem;
     box-sizing:border-box;
-    border-bottom-width:4px;
-    border-bottom-color:#3c43a1;
-    color: #FFFFFF;
+    color: black;
+    border:solid transparent;
     display: inline-block;
+    border-radius:5px;
     margin-left:2rem;
+    font-weight:600;
     padding-top: 0.5rem;
     padding-bottom:0.5rem;
-    padding-right:0.5rem;
-    padding-left:0.5rem;
-    border-radius:10px;
 }
 .chat-history-container a:hover{
-    background-color:#5b63d6;
-    border-color:#5b63d6;
-    border-bottom-color:#444baf;
+    background-color:rgb(233, 231, 231);
 }
 .chat-history-container p{
-    font-size:1.3rem;
-    padding-left:2rem;
-    padding-top:2rem;
+    box-shadow: -1px 2px 16px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: -1px 2px 16px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: -1px 2px 16px 0px rgba(0,0,0,0.15);
+    border:solid;
+    font-size:1rem;
+    width:13%;
+    margin-left:2rem;
+    text-align:center;
+    border-color:#4942E4;
+    background-color:#4942E4;
+    border-radius:10px;
+    color:white;
 }
