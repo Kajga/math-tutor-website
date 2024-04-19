@@ -38,17 +38,18 @@ nav a{
 }
 .input-container{
     margin-top:1rem;
-    background-color:#86A7FC;
-    width:100%;
-    height:100%;
+    margin-left:1rem;
+    
+    width:45%;
+    height:200px;
     border-radius:3px;
     padding-top:1rem;
     padding-bottom:10rem;
 }
 .input-header h2{
     text-shadow: -2px 3px 8px rgba(0,0,0,0.6);
-    margin:0 30%;
     padding-top:0;
+    margin:0;
     padding-bottom:0;
     border:solid;
     border-width:1px;
@@ -108,8 +109,8 @@ nav a{
 -webkit-box-shadow: 2px 4px 24px -8px rgba(0,0,0,0.75);
 -moz-box-shadow: 2px 4px 24px -8px rgba(0,0,0,0.75);
 box-sizing:border-box;
-    height:260px;
-    position:fixed; right:16rem; bottom:1rem;
+    height:240px;
+    position:fixed; right:1rem; bottom:17.5rem;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
@@ -119,6 +120,40 @@ box-sizing:border-box;
     background-color:rgb(224, 224, 224);
     border-color:rgb(224, 224, 224);
     border-bottom-color:rgb(172, 170, 170);
+}
+label{
+    text-align:center;
+    position:fixed; left:54rem;
+    color:white;
+    background-color:#5b63d6;
+    border:solid transparent;
+    border-radius:10px;
+    font-size:16px;
+    padding:0.5rem 0.5rem;
+    border-width: 0 0 4px;
+    border-bottom-color:#444baf;
+}
+label:hover{
+    cursor:pointer;
+    background-color:#5258b8;
+    border-bottom-color:#373d8d;
+}
+.submit-btn{
+    text-align:center;
+    position:fixed; left:45rem;
+    border:solid transparent;
+    border-radius:10px;
+    color:black;
+    padding:0.5rem 2.5rem;
+    font-size:16px;
+    border-width: 0 0 4px;
+    background-color:white;
+    border-bottom-color:rgb(190, 190, 190);
+}
+.submit-btn:hover{
+    cursor:pointer;
+    background-color:rgb(236, 236, 236);
+    border-bottom-color:rgb(146, 146, 146);
 }
 
 .chatbox{
@@ -149,7 +184,7 @@ box-sizing:border-box;
     color:white;
 }
 .other .msg {
-    max-width:30%;
+    max-width:40%;
     order: 1;
     border-radius:20px;
     color:white;
@@ -176,24 +211,24 @@ box-sizing:border-box;
     
 }
 .msg p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin:0rem;
     color: black;
 }
 .msg h2{
     line-height:5px;
-    font-size:1rem;
+    font-size:0.8rem;
     color:black;
 }
 
 .container{
-    position:fixed; bottom:1rem; left:30rem;
-    width:15%;
-    height:260px;
+    position:fixed; bottom:17.5rem; left:45rem;
+    width:14%;
+    height:245px;
     display:grid;
     grid-template: repeat(6, 60px) / repeat(4, 1fr);
     padding-left:1rem;
-    padding-top:1rem;
+    padding-top:0.5rem;
     transform: scale(1);
     grid-template-columns:auto auto auto;
     border:solid;
@@ -235,4 +270,146 @@ box-sizing:border-box;
 }
 .zero{
     grid-column: 2;
+}
+
+@media only screen and (max-width: 769px){
+    nav{
+        height:80px;
+        width:100%;
+    }
+    nav a{
+        font-size:1.3rem;
+    }
+    .input-container{
+        width:90%;
+    }
+    .input-header h2{
+        width:90%;
+        margin:0 auto;
+        text-wrap:wrap;
+    }
+    .input-questions{
+        position:unset;
+        margin:0 auto;
+        margin-top:55rem;
+        margin-bottom:5rem;
+        height:20rem;
+        width:80%;
+    }
+    .container{
+        display:none;
+    }
+    .input-questions a{
+        font-size:1.1rem;
+    }
+    .msg h2{
+        text-wrap:wrap;
+        line-height:18px;
+    }
+    .msg{
+    }
+    label{
+        text-align:center;
+        position:unset;
+        width:36%;
+        margin:0 auto;
+        font-size:1.3rem;
+    }
+    .submit-btn{
+        text-align:center;
+        width:40%;
+        margin:0 auto;
+        position:unset;
+        font-size:1.3rem;
+    }
+    .column-right-bottom{
+        display:flex;
+        text-align:center;
+        align-items:center;
+        flex-direction:column;
+    }
+}
+@media only screen and (min-width:770px)
+and (max-width: 1080px){
+    nav{
+        height:80px;
+    }
+    nav a{
+        font-size:1.3rem;
+    }
+    .input-header h1{
+        margin:0 auto;
+        text-wrap:wrap;
+        width:90%;
+    }
+    .input-container{
+        width:95%;
+    }
+    .input-questions{
+        position:unset;
+        margin-left:2rem;
+        margin-top:30rem;
+        margin-bottom:5rem;
+        height:20rem;
+        width:50%;
+    }
+    .container{
+        position:fixed; bottom:4.5rem; left:37rem;
+        height:20rem;
+        width:22%;
+        padding-top:2.5rem;
+    }
+}
+@media only screen and (min-width: 1081px)
+and (max-width: 1320px){
+    .input-questions{
+        height:280px;
+        position:fixed; right:7rem; bottom:17.5rem;
+    }
+    .container{
+        position:fixed; bottom:36rem; left: 50rem;
+        
+    }
+    .column-right-bottom{
+        position:fixed; bottom:15rem;
+    }
+    label{
+        position:fixed; left:53rem;
+    }
+    .submit-btn{
+        position:fixed; left:53rem; bottom:9rem;
+    }
+    
+
+}
+@media only screen and (min-width: 1321px)
+and (max-width: 1500px){
+    .column-right-bottom{
+        position:fixed; bottom:15rem;
+    }
+    label{
+        position:fixed; left:73.5rem;
+    }
+    .submit-btn{
+        position:fixed; left:63.5rem;
+    }
+}
+@media only screen and (min-width: 1501px)
+and (max-width: 1920px){
+    .container{
+        position:fixed; bottom:37rem; left:75rem;
+    }
+    .input-questions{
+        position:fixed; left:60rem;
+        height:18rem;
+    }
+    .column-right-bottom{
+        position:fixed; bottom:15rem;
+    }
+    label{
+        position:fixed; left:78rem;
+    }
+    .submit-btn{
+        position: fixed; left:68rem;
+    }
 }

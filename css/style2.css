@@ -133,3 +133,41 @@ nav a{
     border-color:#424bc9;
     border-bottom-color:#323885;
 }
+@media only screen and (max-width: 769px){
+    nav{
+     height:80px;
+    }
+    nav a{
+     font-size:1.3rem;
+    }
+    .login-box{
+        width:20rem;
+    }
+ }
+ @media screen 
+ and (max-device-width: 1920px) 
+ and (min-device-width: 1367px){
+    nav{
+        height:80px;
+    }
+    nav a{
+        font-size:1.3rem;
+    }
+    .login-box{
+        width:30rem;
+        height:35rem;
+        margin-top:10rem;
+    }
+    .login-box h2{
+        font-size:2rem;
+    }
+    .login-box p{
+        font-size:1.3rem;
+    }
+    .login-box a{
+        font-size:1.3rem;
+    }
+    .login-box input{
+        font-size:1.3rem;
+    }
+ }
