@@ -291,13 +291,15 @@ box-sizing:border-box;
     .input-questions{
         position:unset;
         margin:0 auto;
-        margin-top:55rem;
+        margin-top:85rem;
         margin-bottom:5rem;
         height:20rem;
         width:80%;
     }
     .container{
-        display:none;
+        position:relative; left:0rem; bottom:50rem;
+        width:50%;
+        margin:0 auto;
     }
     .input-questions a{
         font-size:1.1rem;
