@@ -36,7 +36,7 @@ nav a{
     background-color:#3e4497;
     border-color:#3e4497;
 }
-.hero-section{
+.heroSection{
     display:flex;
     flex-direction:column;
 }
@@ -59,13 +59,13 @@ h1{
 -webkit-box-shadow: -5px 4px 44px 0px rgba(0,0,0,0.21);
 -moz-box-shadow: -5px 4px 44px 0px rgba(0,0,0,0.21);
 }
-.chat-history-container{
+.chathistoryContainer{
     margin-left:2rem;
 }
-.paragraph-text{
+.paragraphText{
     font-weight:bold;
 }
-.chat-history-link{
+.chathistoryLink{
     text-decoration:none;
 }
 li{
@@ -73,7 +73,7 @@ li{
     display:flex;
     margin-top:1rem;
 }
-.chat-history-container{
+.chathistoryContainer{
     margin:0 auto;
     margin-top:3rem;
     margin-bottom:3rem;
@@ -89,7 +89,7 @@ li{
 -moz-box-shadow: 2px 8px 18px -6px rgba(0,0,0,0.75);
 }
 
-.chat-history-container a{
+.chathistoryContainer a{
     font-size:1rem;
     box-sizing:border-box;
     color: black;
@@ -108,10 +108,10 @@ li{
     padding-top: 0.5rem;
     padding-bottom:0.5rem;
 }
-.chat-history-container a:hover{
+.chathistoryContainer a:hover{
     background-color:rgb(233, 231, 231);
 }
-.chat-history-container p{
+.chathistoryContainer p{
     box-shadow: -1px 2px 16px 0px rgba(0,0,0,0.15);
     -webkit-box-shadow: -1px 2px 16px 0px rgba(0,0,0,0.15);
     -moz-box-shadow: -1px 2px 16px 0px rgba(0,0,0,0.15);
@@ -133,10 +133,10 @@ li{
     nav a{
         font-size:1.3rem;
     }
-    .chat-history-container{
+    .chathistoryContainer{
         min-height:700px;
     }
-    .hero-section h1{
+    .heroSection h1{
         font-size:2rem;
         text-wrap:wrap;
         width:50%;
@@ -148,12 +148,12 @@ li{
         flex-direction:column;
         margin-right:4rem;
     }
-    .hero-section p{
+    .heroSection p{
         width:60%;
         text-wrap:wrap;
         font-size:1rem;
     }
-    .hero-section a{
+    .heroSection a{
         text-wrap:nowrap;
     }
     
@@ -164,13 +164,13 @@ and (min-device-width: 770px)
     nav{
         height:80px;
     }
-    .hero-section h1{
+    .heroSection h1{
         width:40%;
         text-align:center;
         margin:0 auto;
         margin-top:1rem;
     }
-    .hero-section p{
+    .heroSection p{
         text-wrap:wrap;
         width:20%;
     }
@@ -184,13 +184,13 @@ and (min-device-width: 1321px){
     nav a{
         font-size:1.3rem;
     }
-    .hero-section h1{
+    .heroSection h1{
         text-align:center;
     }
-    .hero-section p{
+    .heroSection p{
         font-size:1.3rem;
     }
-    .hero-section a{
+    .heroSection a{
         font-size:1.3rem;
     }
 }
