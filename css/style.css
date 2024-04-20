@@ -44,33 +44,33 @@ nav a{
     background-color:#3e4497;
     border-color:#3e4497;
 }
-.hero-section{
+.heroSection{
     margin-top:5rem;
     display:flex;
    flex-direction:column;
 }
-.section-one{
+.sectionOne{
     margin:0 auto;
     text-align:center;
     color:white;
 }
-.section-one h1{
+.sectionOne h1{
     color:white;
     font-size:4rem;
     text-shadow: 3px 4px 14px rgba(0,0,0,0.86);
 }
-.section-one p{
+.sectionOne p{
     font-weight:bold;
     font-size:1.3rem;
     text-shadow: 3px 4px 14px rgba(0,0,0,0.4);
 }
-.section-one a{
+.sectionOne a{
     margin-top:2.5rem;
     display:flex;
     flex-direction:column;
     text-decoration:none;
 }
-.chat-history{
+.chatHistory{
     background-color: #4d56d3;
     border: solid transparent;
     border-radius: 16px;
@@ -90,12 +90,12 @@ nav a{
   outline: none;
   overflow: visible;
 }
-.chat-history:hover{
+.chatHistory:hover{
     background-color:#5b63d6;
     border-color:#5b63d6;
     border-bottom-color:#444baf;
 }
-.new-chat{
+.newChat{
     background-color: white;
     border: solid transparent;
     border-radius: 16px;
@@ -116,7 +116,7 @@ nav a{
   outline: none;
   overflow: visible;
 }
-.new-chat:hover{
+.newChat:hover{
     background-color: rgb(235, 232, 232);
     border-bottom-color:rgb(194, 194, 194);
 }
@@ -137,13 +137,13 @@ nav a{
     nav a{
         font-size:1.3rem;
     }
-    .hero-section h1{
+    .heroSection h1{
         font-size:5rem;
     }
-    .hero-section p{
+    .heroSection p{
         font-size:1.7rem;
     }
-    .hero-section a{
+    .heroSection a{
         width:30%;
         padding:1.3rem;
         font-size:1.3rem;

@@ -36,7 +36,7 @@ nav a{
     background-color:#3e4497;
     border-color:#3e4497;
 }
-.input-container{
+.inputContainer{
     margin-top:1rem;
     margin-left:1rem;
     
@@ -46,7 +46,7 @@ nav a{
     padding-top:1rem;
     padding-bottom:10rem;
 }
-.input-header h2{
+.inputHeader h2{
     text-shadow: -2px 3px 8px rgba(0,0,0,0.6);
     padding-top:0;
     margin:0;
@@ -66,11 +66,11 @@ nav a{
     text-wrap:nowrap;
     font-weight:bold;
 }
-.input-container img{
+.inputContainer img{
     width:100%;
     margin-top:2rem;
 }
-.input-questions a{
+.inputQuestions a{
     width:40%;
     text-decoration:none;
     background-color: white;
@@ -91,7 +91,7 @@ nav a{
   letter-spacing: .8px;
   outline: none;
 }
-.input-questions{
+.inputQuestions{
     align-items:center;
     text-align:center;
     justify-content:center;
@@ -116,7 +116,7 @@ box-sizing:border-box;
     flex-wrap:wrap;
     width:30%;
 }
-.input-questions a:hover{
+.inputQuestions a:hover{
     background-color:rgb(224, 224, 224);
     border-color:rgb(224, 224, 224);
     border-bottom-color:rgb(172, 170, 170);
@@ -138,7 +138,7 @@ label:hover{
     background-color:#5258b8;
     border-bottom-color:#373d8d;
 }
-.submit-btn{
+.submitBtn{
     text-align:center;
     position:fixed; left:45rem;
     border:solid transparent;
@@ -150,7 +150,7 @@ label:hover{
     background-color:white;
     border-bottom-color:rgb(190, 190, 190);
 }
-.submit-btn:hover{
+.submitBtn:hover{
     cursor:pointer;
     background-color:rgb(236, 236, 236);
     border-bottom-color:rgb(146, 146, 146);
@@ -280,15 +280,15 @@ box-sizing:border-box;
     nav a{
         font-size:1.3rem;
     }
-    .input-container{
+    .inputContainer{
         width:90%;
     }
-    .input-header h2{
+    .inputHeader h2{
         width:90%;
         margin:0 auto;
         text-wrap:wrap;
     }
-    .input-questions{
+    .inputQuestions{
         position:unset;
         margin:0 auto;
         margin-top:85rem;
@@ -301,7 +301,7 @@ box-sizing:border-box;
         width:50%;
         margin:0 auto;
     }
-    .input-questions a{
+    .inputQuestions a{
         font-size:1.1rem;
     }
     .msg h2{
@@ -317,14 +317,14 @@ box-sizing:border-box;
         margin:0 auto;
         font-size:1.3rem;
     }
-    .submit-btn{
+    .submitBtn{
         text-align:center;
         width:40%;
         margin:0 auto;
         position:unset;
         font-size:1.3rem;
     }
-    .column-right-bottom{
+    .columnRight-bottom{
         display:flex;
         text-align:center;
         align-items:center;
@@ -339,15 +339,15 @@ and (max-width: 1080px){
     nav a{
         font-size:1.3rem;
     }
-    .input-header h1{
+    .inputHeader h1{
         margin:0 auto;
         text-wrap:wrap;
         width:90%;
     }
-    .input-container{
+    .inputContainer{
         width:95%;
     }
-    .input-questions{
+    .inputQuestions{
         position:unset;
         margin-left:2rem;
         margin-top:30rem;
@@ -364,7 +364,7 @@ and (max-width: 1080px){
 }
 @media only screen and (min-width: 1081px)
 and (max-width: 1320px){
-    .input-questions{
+    .inputQuestions{
         height:280px;
         position:fixed; right:7rem; bottom:17.5rem;
     }
@@ -372,13 +372,13 @@ and (max-width: 1320px){
         position:fixed; bottom:36rem; left: 50rem;
         
     }
-    .column-right-bottom{
+    .columnrightBottom{
         position:fixed; bottom:15rem;
     }
     label{
         position:fixed; left:53rem;
     }
-    .submit-btn{
+    .submitBtn{
         position:fixed; left:53rem; bottom:9rem;
     }
     
@@ -386,13 +386,13 @@ and (max-width: 1320px){
 }
 @media only screen and (min-width: 1321px)
 and (max-width: 1500px){
-    .column-right-bottom{
+    .columnrightBottom{
         position:fixed; bottom:15rem;
     }
     label{
         position:fixed; left:73.5rem;
     }
-    .submit-btn{
+    .submitBtn{
         position:fixed; left:63.5rem;
     }
 }
@@ -401,17 +401,17 @@ and (max-width: 1920px){
     .container{
         position:fixed; bottom:37rem; left:75rem;
     }
-    .input-questions{
+    .inputQuestions{
         position:fixed; left:60rem;
         height:18rem;
     }
-    .column-right-bottom{
+    .columnrightBottom{
         position:fixed; bottom:15rem;
     }
     label{
         position:fixed; left:78rem;
     }
-    .submit-btn{
+    .submitBtn{
         position: fixed; left:68rem;
     }
 }
