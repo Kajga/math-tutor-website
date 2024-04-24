@@ -9,6 +9,9 @@ body{
 }
 nav{
     height:60px;
+    position:fixed; top:0rem;
+    z-index:1;
+    width:100%;
     background-color:white;
     display:flex;
     align-items:center;
@@ -37,7 +40,7 @@ nav a{
     border-color:#3e4497;
 }
 .input-container{
-    margin-top:1rem;
+    margin-top:4rem;
     margin-left:1rem;
     
     width:45%;
@@ -155,7 +158,44 @@ label:hover{
     background-color:rgb(236, 236, 236);
     border-bottom-color:rgb(146, 146, 146);
 }
-
+.inputField{
+    float:right;
+    position:fixed; right:27.5rem; bottom:13rem;
+    border:solid;
+    border-color:white;
+    border-radius:10px;
+    border-width:0 0 4px;
+    border-bottom-color:rgb(209, 208, 208);
+    padding:0.5rem;
+}
+.container1 label{
+    margin-top:0.4rem;
+    margin-left:1rem;
+    border-radius:5px;
+    background-color:rgb(219, 219, 219);
+    border-bottom-color:rgb(179, 177, 177);
+    border-width: 0 0 3px;
+}
+.container1 label:hover{
+    background-color:rgb(196, 195, 195);
+    border-bottom-color:rgb(151, 151, 151);
+}
+.container1{
+    display:flex;
+    position:fixed; right:1.5rem; bottom:7rem;
+    border-radius:20px;
+    width:10rem;
+    height:60px;
+    background-color:white;
+}
+.container1 .box{
+    position:relative; left:5rem; top:0.4rem;
+    border-radius:5px;
+    background-color:rgb(209, 208, 208);
+    width:2.7rem;
+    height:3rem;
+    margin-left:0.5rem;
+}
 .chatbox{
     margin-top:2rem;
     list-style:none;
