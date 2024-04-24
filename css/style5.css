@@ -79,7 +79,6 @@ li{
     margin-bottom:3rem;
     background-color:white;
     width:90%;
-    height:600px;
     border-radius:30px;
     border-style:solid;
     border-bottom-color:rgb(185, 185, 185);
@@ -132,9 +131,6 @@ li{
     }
     nav a{
         font-size:1.3rem;
-    }
-    .chathistoryContainer{
-        min-height:700px;
     }
     .heroSection h1{
         font-size:2rem;
