@@ -165,18 +165,7 @@ label:hover{
     border-bottom-color:rgb(209, 208, 208);
     padding:0.5rem;
 }
-.container1 label{
-    margin-top:0.4rem;
-    margin-left:1rem;
-    border-radius:5px;
-    background-color:rgb(219, 219, 219);
-    border-bottom-color:rgb(179, 177, 177);
-    border-width: 0 0 3px;
-}
-.container1 label:hover{
-    background-color:rgb(196, 195, 195);
-    border-bottom-color:rgb(151, 151, 151);
-}
+
 .container1{
     display:flex;
     position:fixed; right:1.5rem; bottom:7rem;
@@ -335,9 +324,19 @@ box-sizing:border-box;
         width:80%;
     }
     .container{
-        position:relative; left:0rem; bottom:50rem;
+        position:relative; left:0rem; bottom:65rem;
         width:50%;
         margin:0 auto;
+    }
+    .container1{
+        margin:0 auto;
+        margin-top:2rem;
+        position:unset;
+    }
+    .inputField{
+        position:unset;
+        margin-bottom:2rem;
+        font-size:1.2rem;
     }
     .inputQuestions a{
         font-size:1.1rem;
@@ -362,7 +361,7 @@ box-sizing:border-box;
         position:unset;
         font-size:1.3rem;
     }
-    .columnRight-bottom{
+    .columnrightBottom{
         display:flex;
         text-align:center;
         align-items:center;
@@ -389,12 +388,25 @@ and (max-width: 1080px){
         position:unset;
         margin-left:2rem;
         margin-top:30rem;
-        margin-bottom:5rem;
+        margin-bottom:20rem;
         height:20rem;
         width:50%;
     }
+    .inputField{
+        position:fixed; left:37rem; bottom:10rem;
+        width:20%;
+    }
+    label{
+        position:fixed; bottom:6rem; left:45rem;
+    }
+    .submit-btn{
+        position:fixed; bottom:6rem; left:36rem;
+    }
+    .container1{
+        position:fixed; bottom:0rem; left:40rem;
+    }
     .container{
-        position:fixed; bottom:4.5rem; left:37rem;
+        position:fixed; bottom:14rem; left:37rem;
         height:20rem;
         width:22%;
         padding-top:2.5rem;
@@ -404,20 +416,27 @@ and (max-width: 1080px){
 and (max-width: 1320px){
     .inputQuestions{
         height:280px;
-        position:fixed; right:7rem; bottom:17.5rem;
+        position:fixed; right:7rem; bottom:13rem;
     }
     .container{
         position:fixed; bottom:36rem; left: 50rem;
         
     }
+    .inputField{
+        position:fixed; bottom:32rem; left:49rem;
+        width:15%;
+    }
     .columnrightBottom{
         position:fixed; bottom:15rem;
     }
     label{
-        position:fixed; left:53rem;
+        position:fixed; left:53rem; bottom:9rem;
     }
     .submitBtn{
-        position:fixed; left:53rem; bottom:9rem;
+        position:fixed; left:53rem; bottom:6rem;
+    }
+    .container1{
+        position:fixed; left:52rem; bottom:1rem;
     }
     
 
@@ -433,23 +452,33 @@ and (max-width: 1500px){
     .submitBtn{
         position:fixed; left:63.5rem;
     }
+    .inputField{
+        position:fixed; left:45rem;
+        width:13%;
+    }
+    .container1{
+        position:fixed; left:68rem;
+    }
 }
 @media only screen and (min-width: 1501px)
 and (max-width: 1920px){
     .container{
-        position:fixed; bottom:37rem; left:75rem;
+        position:fixed; bottom:37rem; left:68rem;
     }
     .inputQuestions{
-        position:fixed; left:60rem;
+        position:fixed; left:60rem; bottom:13rem;
         height:18rem;
     }
     .columnrightBottom{
-        position:fixed; bottom:15rem;
+        position:fixed; bottom:15rem; left:58rem;
     }
     label{
-        position:fixed; left:78rem;
+        position:fixed; left:77rem;
     }
     .submitBtn{
-        position: fixed; left:68rem;
+        position: fixed; left:66rem;
+    }
+    .container1{
+        position:fixed; bottom:2.5rem; left:70rem;
     }
 }
