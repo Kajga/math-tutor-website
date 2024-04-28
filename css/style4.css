@@ -370,8 +370,9 @@ box-sizing:border-box;
         flex-direction:column;
     }
 }
+/*Changed screen size value*/
 @media only screen and (min-width:770px)
-and (max-width: 1080px){
+and (max-width: 1024px){
     nav{
         height:80px;
     }
@@ -386,38 +387,44 @@ and (max-width: 1080px){
     .input-container{
         width:95%;
     }
+    /*Changed position*/
     .inputField{
-        position:fixed; left:37rem; bottom:10rem;
+        position:relative; left:23rem; bottom:0rem;
+        float:left;
         width:20%;
     }
+    /*Changed position*/
     .container1{
-        position:fixed; bottom:0rem; left:40rem;
+        position:relative; bottom:-7rem; left:24rem;
+        
     }
+    /*Changed position*/
     label{
-        position:fixed; bottom:6rem; left:45rem;
+        position:relative; bottom:-3rem; left:4rem;
     }
+     /*Changed position*/
     .submit-btn{
-        position:fixed; bottom:6rem; left:36rem;
+        position:relative; bottom:-6rem; left:12.5rem;
     }
+     /*Changed position*/
     .input-questions{
-        position:unset;
-        margin-left:2rem;
+        position:relative; bottom:0rem; left:15rem;
         margin-top:30rem;
         margin-bottom:20rem;
         height:20rem;
         width:50%;
     }
+     /*Changed position*/
     .container{
-        position:fixed; bottom:14rem; left:37rem;
-        height:20rem;
-        width:22%;
-        padding-top:2.5rem;
+       position:relative; left:21rem; bottom:23rem;
+       width:30%;
     }
 }
-@media only screen and (min-width: 1081px)
+/*Changed screen size value*/
+@media only screen and (min-width: 1025px)
 and (max-width: 1320px){
     .input-questions{
-        height:280px;
+        height:300px;
         position:fixed; right:7rem; bottom:13rem;
     }
     .container{
